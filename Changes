@@ -1,0 +1,6 @@
+Revision history for Perl extension Net::SMS::TWSMS.
+
+0.1  Mon Aug 14 00:26:08 2006
+	- original version; created by h2xs 1.23 with options
+		-A -X -n Net::SMS::TWSMS
+
