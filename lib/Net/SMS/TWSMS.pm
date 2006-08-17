@@ -4,7 +4,7 @@ use strict;
 use Carp;
 use LWP::UserAgent;
 
-our $VERSION = '0.1';
+our $VERSION = '0.11';
 our (@ISA) = qw(Exporter);
 our (@EXPORT) = qw(send_sms);
 
@@ -377,8 +377,8 @@ Set the I<username> and I<password> in one go.
 
   # is basically a shortcut for
 
-  $mollie->username('my_twsms_username');
-  $mollie->password('my_twsms_password');
+  $sms->username('my_twsms_username');
+  $sms->password('my_twsms_password');
 
 Without arguments, it will return the array containing I<username>,
 and I<password>.
@@ -416,8 +416,7 @@ Returns the result message, as provided by twsms.com, or L<LWP::UserAgent>.
 
 =head2 EXPORT
 
-None by default.
-
+send_sms
 
 
 =head1 SEE ALSO
